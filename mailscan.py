@@ -4,7 +4,7 @@ import os
 import email
 while(1):
     email_user = 'nikhilsai6076@gmail.com'
-    email_pass = 'Nikhilsai12345678N'
+    email_pass = '***********************'
     mail = imaplib.IMAP4_SSL("imap.gmail.com",993)
     mail.login(email_user, email_pass)
     mail.select('Inbox')
